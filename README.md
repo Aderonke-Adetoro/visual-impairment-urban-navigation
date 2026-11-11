@@ -41,7 +41,7 @@ Design intent is to favour recall over precision (a false alarm is preferable to
 | `vision_inference_script.py` | Headless edge pipeline (Raspberry Pi / Linux): NCNN YOLO + ONNX depth + `aplay` beeps |
 | `bdd100k_7model_ncnn_model/` | NCNN export of the detector (used by the edge script) |
 | `bdd100k_7model.pt` | Fine-tuned YOLOv8n weights (PyTorch) |
-| `depth_model.onnx` | **Not in the repo** (95 MB). Download from the Releases page[`Depth Model Release Link`] (https://github.com/Aderonke-Adetoro/visual-impairment-urban-navigation/releases/download/v1.0/depth_model.onnx) or regenerate it with the ONNX cell of `bdd100_7class.ipynb`; place it in the repository root |
+| `depth_model.onnx` | **Not in the repo** (95 MB). Download from the Releases page (https://github.com/Aderonke-Adetoro/visual-impairment-urban-navigation/releases/download/v1.0/depth_model.onnx) or regenerate it with the ONNX cell of `bdd100_7class.ipynb`; place it in the repository root |
 | `bdd100_7class.ipynb` | Desktop notebook: video demo, **validation** (`model.val`, PR curve / confusion matrix), **Depth Anything V2 → ONNX export**, and **beep generation** |
 | `training/BDD100k_Training.ipynb` | Colab training notebook (see notes below) |
 | `docs/figures/` | PR curve and normalised confusion matrix from the validation split (default Ultralytics settings, mAP@50 = 0.430) |
