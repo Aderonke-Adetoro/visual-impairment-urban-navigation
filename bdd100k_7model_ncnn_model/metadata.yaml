@@ -1,0 +1,24 @@
+description: Ultralytics bdd100k_7model model trained on /content/bdd_workspace/data.yaml
+author: Ultralytics
+date: '2026-01-15T13:42:45.307020'
+version: 8.3.232
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: bike
+  1: bus
+  2: car
+  3: motor
+  4: person
+  5: rider
+  6: truck
+args:
+  batch: 1
+  half: true
+channels: 3
