@@ -1,0 +1,6 @@
+# Edge inference (vision_inference_script.py) - Raspberry Pi 4 / Linux
+ultralytics==8.3.248   # version that trained bdd100k_7model.pt
+ncnn                   # required by Ultralytics to load the NCNN model folder
+onnxruntime
+opencv-python
+numpy
