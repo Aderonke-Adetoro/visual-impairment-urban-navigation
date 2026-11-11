@@ -1,0 +1,5 @@
+# Desktop demo notebooks (Windows + CUDA; they use winsound)
+-r requirements.txt
+torch
+transformers
+pillow
